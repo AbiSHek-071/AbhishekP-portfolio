@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    background-color: #0A0A0A;
+    color: white;
+    font-family: sans-serif;
+}
+.sidebar{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+.dropdown-item{
+    color: rgb(95, 94, 94);
+}
+.dropdown-item:hover{
+    /* color: white; */
+    transition:color 0.4s ease-in-out;
+}
+.bg-cst{
+    background-color: #222222;
+  
+}
+.dropdown-item:active{
+    background-color:#D3E97A;
+}
+.text-cst{
+    color: #222222;
+}
+.text-mine{
+    color:#D3E97A ;
+}
+
+.bg-mine{
+    background-color: #D3E97A;
+}
+
+.py-10{
+    margin-block: 10rem;
+}
+
+.mt-10{
+    margin-top: 10rem;
+}
+a{
+    text-underline-offset: 4px;
+    
+    transition: all 0.3s ease-in-out;
+}
+a:hover{
+    text-underline-offset: 8px;
+    
+}
+.underline{
+    position: relative;
+}
+.underline::before{
+    content: "";
+    width: 100%;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    height: 2px;
+    background-color: #D3E97A;
+}
+
+.vh-25{
+    height: 25vh;
+}
+.vh-75{
+    height: 75vh;
+}
+.pop-effect{
+    transform: scale(1);
+    transition:transform 0.3s ease-in-out;
+}
+.pop-effect:hover{
+    transform: scale(1.2);
+}
+
+.pop-btn{
+    transform: scale(1);
+    transition:transform 0.3s ease-in-out;
+}
+.pop-btn:hover{
+    transform: scale(1.07);
+}
+.pop-btn-sm{
+    transform: scale(1);
+    transition:transform 0.3s ease-in-out;
+}
+.pop-btn-sm:hover{
+    transform: scale(1.03);
+}
+
+.valid{
+    color: green;
+}
+.form-control{
+    background-color: #222222;
+    color: white;
+}
+.form-control:focus{
+    background-color: #222222;
+    color: white;
+}
+
+.close{
+   
+    background-color:#D3E97A;;
+}
+
+@media (max-width:460px) {
+    .cover-img{
+        height: 100vw;
+    }
+}

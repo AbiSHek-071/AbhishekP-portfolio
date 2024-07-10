@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ABHISHEK PORTFOLIO</title>
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+  <body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark position-fixed top-0 w-100  bg-cst z-3 " >
+        <div class="container">
+          <a class="navbar-brand  fs-4" href="#"><span class="fw-bolder" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">ABHISHEK P</span></a>
+          <button class="navbar-toggler shadow-none " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header text-white border-bottom">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close btn-close-white shadow-none text-reset " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="#home">Home</a>
+                </li>
+               
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      About
+                    </a>
+                    <ul class="dropdown-menu bg-dark " aria-labelledby="offcanvasNavbarDropdown">
+                      <li><a class="dropdown-item " href="#about">About Me</a></li>
+                      <li><a class="dropdown-item " href="#exp">Experience</a></li>
+                      <li><a href="#skills" class="dropdown-item">Skills</a></li>
+                      <li>
+                        <hr class="dropdown-divider bg-light">
+                      </li>
+                      <li><a class="dropdown-item " href="#projects">Project Works</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+                  </li>
+
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- navbar_end -->
+
+
+      <!-- introduction -->
+
+      <div id="home" class="container mt-10" data-aos="fade-up">
+       <div class="row">
+            <div class="col-lg-6 d-flex justify-conent-center align-items-center">
+                <div class="container d-flex flex-column justify-conent-center py-5 ">
+                    <h2 class="fs-1 fw-bold">HI, I AM <br>
+                        ABHISHEK P</h2  >
+                    <p>A MERN based Full-Stack Developer about buiding userfriendly websites</p>
+                    <div class="container-fluid m-0 p-0">
+                        <a class="bg-mine pop-btn rounded-pill text-cst btn btn-secondary px-4 py-2 fs-6 me-2" href="#contact">CONTACT ME</a>
+                        <button onclick="linkedin()" class="bg-cst pop-effect rounded-circle border-0 p-2 me-2"><img src="./icon/bxl-linkedin.svg.svg" height="26px" alt=""></button>
+                        <button onclick="gitHub()" class="bg-cst pop-effect rounded-circle border-0 p-2"><img src="./icon/bxl-github.svg.svg" height="26px"  alt=""></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <img class="img-fluid vh-75 cover-img rounded-4"   src="./image/me.avif" alt="">
+            </div>
+       </div>
+      </div>
+
+
+    <hr class="mt-4 mb-0" id="projects">
+
+      <!-- introduction_end -->
+
+
+      <!-- project -->
+
+
+      <div id="projects" class="container mt-5 " >
+        <div class="row">
+            <h2>Featured Projects</h2>
+            <p class="">Here are some selected projects that showcase my passion for Full-stack development</p>
+        </div>
+      </div>
+      <!-- xbox  -->
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class=" rounded container-fluid m-0 bg-cst d-flex justify-content-center align-items-center py-5">
+                    <img class="img-fluid w-75  rounded" src="./image/xbox.avif" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h4>Clone website of Microsoft Xbox </h4>
+                <p>Designing this cloned website not only showcases my technical abilities but also highlights my dedication to delivering polished, professional-grade web solutions. It stands as a testament to my passion for web development and commitment to staying abreast of industry standards and best practices.
+                </p>
+                
+                <table class="table table-dark  table-striped">
+                    <thead>
+                        <tr>
+                          <span>Project Info</span>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="" >
+                         
+                          <td>Year</td>
+                          <td>2024</td>
+                          
+                        </tr>
+                        <tr class="">
+                          
+                          <td>Role</td>
+                          <td>Front-end Developer</td>
+                          
+                        </tr>
+                        
+                      </tbody>    
+                </table>
+
+
+                <div class="container-fluid">
+                    <a href="https://abishek-071.github.io/Xbox-clone/" target="_blank" class="text-mine me-2 lh-lg">LIVE DEMO </a>
+                    <a href="https://github.com/AbiSHek-071/Xbox-clone" target="_blank" class="text-mine ">SEE ON GITHUB <img class="ms-2" src="./icon/bxl-github.svg.svg" height="24px" alt=""></a>
+                </div>
+
+            </div>
+
+            <hr class="mt-5">
+            <!-- vaichus.in  -->
+            <div class="container mt-4 " data-aos="fade-up">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="rounded container-fluid m-0 bg-cst d-flex justify-content-center align-items-center h-100 py-4">
+                            <img class="img-fluid w-75  rounded" src="./image/Vaichus.avif" alt="">
+                            <!-- <iframe src="https://vaichus.in/" width="100%" height="100%" frameborder="0"></iframe> -->
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4>Vaichus.in - A designer's Website</h4>
+                        <p>Vaichus.in is a sleek and responsive business portfolio website. It's designed to highlight professional services and achievements effectively. With its clean layout and easy navigation, the site ensures a seamless experience on any device. Vaichus.in exemplifies a commitment to presenting businesses with clarity and style</p>
+                        
+                        <table class="table table-dark  table-striped">
+                            <thead>
+                                <tr>
+                                  <span>Project Info</span>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr class="" >
+                                 
+                                  <td>Year</td>
+                                  <td>2023</td>
+                                  
+                                </tr>
+                                <tr class="">
+                                  
+                                  <td>Role</td>
+                                  <td>Front-end Developer</td>
+                                  
+                                </tr>
+                                
+                              </tbody>    
+                        </table>
+        
+                        <div class="container-fluid">
+                            <a href="https://vaichus.in/" target="_blank" class="text-mine me-2 lh-lg">LIVE DEMO </a>
+                            
+                        </div>
+        
+                    </div>
+
+                    <hr class="mt-5">
+                    <!-- coolermaster -->
+                    <div class="container mt-4" data-aos="fade-up">
+                      <div class="row">
+                          <div class="col-lg-6">
+                              <div class="rounded container-fluid m-0 bg-cst d-flex justify-content-center align-items-center py-5">
+                                  <img class="img-fluid w-75  rounded" src="./image/coolermaster.avif" alt="">
+                              </div>
+                          </div>
+                          <div class="col-lg-6">
+                              <h4>Clone Website of Cooler</h4>
+                              <p>Creating a website inspired by Cooler Master showcases my expertise in web development and commitment to delivering professional solutions. It highlights my dedication to industry standards and best practices, demonstrating a passion for polished, user-centric design.</p>
+                              
+                              <table class="table table-dark  table-striped">
+                                  <thead>
+                                      <tr>
+                                        <span>Project Info</span>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr class="" >
+                                       
+                                        <td>Year</td>
+                                        <td>2024</td>
+                                        
+                                      </tr>
+                                      <tr class="">
+                                        
+                                        <td>Role</td>
+                                        <td>Front-end Developer</td>
+                                        
+                                      </tr>
+                                      
+                                    </tbody>    
+                              </table>
+              
+                              <div class="container-fluid">
+                                  <a href="https://abishek-071.github.io/CoolerMaster-clone/" target="_blank" class="text-mine me-2 lh-lg">LIVE DEMO </a>
+                                  <a href="https://github.com/AbiSHek-071/CoolerMaster-clone" target="_blank" class="text-mine ">SEE ON GITHUB <img class="ms-2" src="./icon/bxl-github.svg.svg" height="24px" alt=""></a>
+                              </div>
+              
+                          </div>
+        </div>
+      </div>
+      
+      <!-- project_end -->
+      
+      <hr id="about" class="my-5">
+      <!-- about_me -->
+      <div  class="container my-5" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 ">
+            <h1 class="fw-bold">ABOUT ME</h1>
+          </div>
+          <div class="col-lg-6">
+            <h4>I am a Full-Stack developer based in MERN</h4>
+            <P class="mt-4">As a MERN stack developer with a degree in BCA, I bring a solid foundation in both theoretical knowledge and practical experience to my projects. I have successfully completed several projects that demonstrate my proficiency in developing full-stack web applications using MongoDB, Express.js, React.js, and Node.js. My dedication to staying updated with the latest technologies and best practices ensures that I deliver efficient, scalable, and user-friendly solutions.</P>
+            <a href="#contact" class="text-mine me-2 lh-lg">MORE ABOUT ME</a>
+          </div>
+        </div>
+      </div>
+      <!-- about_me_end -->
+
+      <hr class="mt-10" id="skills">
+
+      <!-- capabilities -->
+      <div class="container mt-5" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 ">
+            <h1 class="fw-bold">MY CAPABILITIES</h1>
+          </div>
+          <div class="col-lg-6">
+            <p>I excel in HTML, CSS, jQuery, and Bootstrap, combining theoretical knowledge from my BCA degree with practical skills. I create structured HTML layouts, style them with CSS and Bootstrap for responsiveness, and enhance functionality with jQuery, focusing on user-friendly interfaces and seamless cross-device experiences.</p>
+            <div class="container-fluid mb-5">
+              <button class="fs-5 text-white bg-transparent border border-1 border-secondary rounded-pill px-4 py-2 me-3 mb-3">HTML</button>
+              <button class="fs-5 text-white bg-transparent border border-1 border-secondary rounded-pill px-4 py-2 me-3 mb-3">CSS</button>
+              <button class="fs-5 text-white bg-transparent border border-1 border-secondary rounded-pill px-4 py-2 me-3 mb-3">JAVA SCRIPT</button>
+              <button class="fs-5 text-white bg-transparent border border-1 border-secondary rounded-pill px-4 py-2 me-3 mb-3">jQUERY</button>
+              <button class="fs-5 text-white bg-transparent border border-1 border-secondary rounded-pill px-4 py-2 me-3 mb-3">BOOTSTRAP</button>
+              <button class="fs-5 text-white bg-transparent border border-1 border-secondary rounded-pill px-4 py-2 me-3 mb-3">FIGMA</button>
+              <button class="fs-5 text-white bg-transparent border border-1 border-secondary rounded-pill px-4 py-2 me-3 mb-3">PHP</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- capabilities_end -->
+
+      <hr id="exp" class="mt-3">
+
+      <!-- Experience -->
+      <div class="container mt-5" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="fw-bold">MY EXPERIENCE</h1></div>
+          <div class="col-lg-6">
+              <div class="container-fluid d-flex justify-content-between p-0 mb-5 flex-md-row flex-column">
+                <h4 class="">Freelance Developer</h4>
+                <span>June 2023 - May 2024</span>
+              </div>
+              <p class="mt-4">From June 2023 to May 2024, I freelanced in web development, focusing on HTML, CSS, jQuery, and Bootstrap, delivering responsive websites with custom features and ensuring client satisfaction.</p>
+
+              <div class="mt-5 container-fluid d-flex justify-content-between p-0">
+                <h4>Self Projects</h4>
+                <span>Augest 2023 - Present</span>
+              </div>
+              <span class="text-mine">Personal Finance Management System</span>
+              <p class="mt-4">I developed a comprehensive Personal Finance Management System for my college using XAMPP, PHP, HTML, CSS, and MySQL, emphasizing both robust functionality and an intuitive user interface.</p>
+          </div>
+        </div>
+      </div>
+      <!-- experience_end -->
+
+      <hr id="contact" class="my-4">
+      <!-- contact  -->
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <div class="col-lg-6">
+              <h1 class="fw-bold">LET'S CONNECT</h1>
+              <p>Say hello at <span class="underline">abhishekpawoor654@gmail.com </span></p>
+              <p>For more info, here's my <span class="underline">Socials</span></p>
+              <div class="container-fluid p-0">
+                <a class="me-2 " target="_blank" href="https://github.com/AbiSHek-071"><img class="pop-effect"  height="40px" src="./icon/bxl-github.svg.svg" alt=""></a>
+                <a class="me-2 " target="_blank" href="http://wa.me/+918304944316"><img class="pop-effect"  height="40px" src="./icon/whatsapp (1).avif" alt=""></a>
+                <a class="me-2 " target="_blank" href="https://www.instagram.com/_.abhi_shek_._?igsh=N2Y0NTY4MW80cGky"><img class="pop-effect"  height="40px" src="./icon/bxl-instagram.svg.svg" alt=""></a>
+                <a class="" target="_blank" href="https://www.linkedin.com/in/abhishek-p-965a4a240/"><img class="pop-effect"  height="40px" src="./icon/bxl-linkedin.svg.svg" alt=""></a>
+              </div>
+            </div>
+            <div class="col-lg-6">
+
+              <!-- form  -->
+
+              <form id="submit-form" class="mb-3 d-flex flex-column" action="" >
+                
+                  <div class="input_group position-relative">
+                    <label for="fname" class="form-label">Name</label>
+                  <input id="contact-name" onkeyup="validateName()" type="text" id="fname" name="name" class="form-control bg-cst border-0 py-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <span class="position-absolute bottom-0 end-0 me-3 mb-3 text-warning" id="name-error"></span>
+                  </div>
+
+                  <div class="input_group position-relative">
+                    <label for="lname" class="form-label">Email </label>
+                    <input id="contact-email" onkeyup="validateEmail()" type="email" id="lname" name="email" class="form-control bg-cst border-0 py-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <span class="position-absolute bottom-0 end-0 me-3 mb-3 text-warning" id="email-error"></span>
+                  </div>
+
+                  <div class="input_group position-relative">
+                    <label for="country" class="form-label">Subject</label>
+                    <input id="contact-subject" onkeyup="validateSubject()" type="text" id="country" name="color" class="form-control bg-cst border-0 py-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <span class="position-absolute bottom-0 end-0 me-3 mb-3 text-warning" id="subject-error"></span>
+                  </div>
+
+                  <div class="input_group position-relative">
+                    <label for="subject" class="form-label">Message</label>
+                    <textarea id="contact-message" onkeyup="validateMessage()" name="message" id="subject" placeholder="write your message" class="text-white w-100 bg-cst border-0 py-3 rounded" rows="5"  ></textarea>
+                    <span class="position-absolute bottom-0 end-0 me-3 mb-3 text-warning" id="Message-error"></span>
+                  </div>
+
+                  
+                  
+
+                
+                 
+
+                
+                 
+                
+                  <span class="mt-4 text-danger" id="submit-error"></span>
+                <input  onclick="return validateForm()" type="submit" value="submit" class="btn btn-primary bg-mine pop-btn-sm rounded-pill btn btn-secondary px-4 py-2 fs-6 me-2 text-black fw-bold">
+                
+              </form>
+
+              <!-- form_end  -->
+            </div>
+          </div>
+        </div>
+      <!-- contact_end  -->
+
+
+      <!-- popup -->
+        <!-- Button trigger modal -->
+
+
+    
+   
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+
+    </script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
